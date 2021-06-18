@@ -25,5 +25,8 @@
       "Aclips\\Docflow\\Tests\\": "tests/src",
       "Aclips\\Docflow\\": "src/"
     }
+  },
+  "require": {
+    "enoffspb/entity-manager-interface": "dev-main"
   }
 }
