@@ -1,0 +1,29 @@
+{
+  "name": "aclips/docflow",
+  "description": "Document flow module that allows you to implement custom business processes.",
+  "authors": [
+    {
+      "name": "Nikita Ermilichev",
+      "email": "aclips@ya.ru"
+    },
+    {
+      "name": "Ilya Pastukhov",
+      "email": "enoff.spb@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Aclips\\Docflow\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aclips\\Docflow\\Tests\\": "tests/src",
+      "Aclips\\Docflow\\": "src/"
+    }
+  }
+}
